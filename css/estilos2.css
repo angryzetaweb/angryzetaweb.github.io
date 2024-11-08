@@ -192,11 +192,11 @@ img {
 }
 #tickets p {
   font-size: 10px;
-  color: #FFF0B5;
+  color: white;
   font-size: 1rem;
   line-height: normal;
-  font-weight: bold;
-  rotate: -2deg;
+  font-weight: ;
+  rotate: -1deg;
   padding: .5rem;
 }
 #tickets h2::before {
@@ -246,15 +246,15 @@ img {
   font-size: 6rem;
   font-family: RetroSans;
   text-align: center;
-  color: #F45D02;
+  color: #fdf5d6;
   position: relative;
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 #contacto p {
   font-family: RetroSans;
   font-size: 1.5rem;
-  color: #FFF0B5;
+  color: #fdf5d6;
   padding: 4.5rem 0 0 0;
   line-height: normal;
   font-weight: bold;
