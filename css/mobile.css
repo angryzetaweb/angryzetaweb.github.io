@@ -5,19 +5,26 @@
       display: block;
     }
     #mainNav h1 {
-      font-family: RetroSans;
-      color: #F65D03;
-      font-size: 2rem;
-      line-height: normal;
-      text-align: center;
+		font-size: 4rem;
+		font-family: RetroSans;
+		text-align: center;
+		color: #fdf5d6;
+		position: relative;
+		width: 40%;
+		margin: auto;
     }
+	
+
     #mainNav h2 {
-      font-family: RetroSans;
-      color: #FFF0B5;
-      font-size: 2.4rem;
-      line-height: normal;
-      text-align: center;
+		font-size: 2rem;
+		font-family: RetroSans;
+		text-align: center;
+		color: #fdf5d6;
+		position: relative;
+		width: 40%;
+		margin: auto;
     }
+	
     #afiche {
       padding: 2rem 0;
     }

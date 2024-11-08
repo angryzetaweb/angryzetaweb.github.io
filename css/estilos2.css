@@ -5,6 +5,13 @@ body {
   font-family: RetroSans;
   src: url(../fonts/RetroSans.ttf);
 }
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 p {
   font-size: 10px;
 }
@@ -42,6 +49,26 @@ nav {
     padding: 0 1em;
   }
 }
+
+h1{
+    font-size: 3em;
+	color: white;
+	text-align: center;
+	font-family: RetroSans;
+}
+
+h3{
+    font-size: 3em;
+	color: white;
+	text-align: center;
+	font-family: RetroSans;
+}
+
+p {
+	font-family: "Faculty Glyphic", sans-serif;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
 @media (min-width: 992px) {
     #mainNav .nav-link {
         transition: none;
@@ -73,15 +100,11 @@ img {
 }
 }
 
-h2 {
-  font-size: 2rem;
-  font-family: RetroSans;
-  text-align: center;
-  color: #fdf5d6;
-  position: relative;
-  width: 40%;
-  margin: auto;
+.angrytext {
+	color: white;
+	text-align: center;
 }
+
 #afiche {
   background-color: #040707 !important;
   padding: 4rem 0;
@@ -89,7 +112,7 @@ h2 {
 
 #afiche img {
   float: left;
-  width: 30%;
+  width: 60%;
   height: auto;
   padding: .5rem;
   margin: 3rem 1rem 0 0;
@@ -195,7 +218,7 @@ h2 {
   font-size: 6rem;
   font-family: RetroSans;
   text-align: center;
-  color: #F45D02;
+  color: #ff0018;
   position: relative;
   width: 70%;
   margin: auto;
@@ -206,8 +229,6 @@ h2 {
   font-size: 1rem;
   line-height: normal;
   font-weight: ;
-  rotate: -1deg;
-  padding: .5rem;
 }
 #tickets h2::before {
   position: absolute;
@@ -250,7 +271,6 @@ h2 {
   width: 100%;
   margin: auto;
   display: block;
-  padding: 1rem;
 }
 #contacto h2 {
   font-size: 6rem;
@@ -288,6 +308,8 @@ h2 {
   left: 2rem;
   top: -1.5rem;
 }
+
+
 #contacto h2::after {
   position: absolute;
   content: "";
