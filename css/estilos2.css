@@ -58,7 +58,7 @@ h1{
 }
 
 h3{
-    font-size: 3em;
+    font-size: 2em;
 	color: white;
 	text-align: center;
 	font-family: RetroSans;
@@ -204,7 +204,6 @@ img {
   width: 100%;
   margin: auto;
   display: block;
-  padding: 1rem;
 }
 #tickets .card {
   width: 100%;
@@ -263,7 +262,6 @@ img {
   transform: rotate(-1deg);
 }
 #contacto {
-  padding-top: 4rem;
 /*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
   background-color: #040707 !important;
 }
