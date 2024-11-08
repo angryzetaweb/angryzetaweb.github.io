@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+#mainNav img {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+#mainNav h1 {
+  font-family: RetroSans;
+  color: #F65D03;
+  font-size: 2rem;
+  line-height: normal;
+  text-align: center;
+}
+#mainNav h2 {
+  font-family: RetroSans;
+  color: #FFF0B5;
+  font-size: 2.4rem;
+  line-height: normal;
+  text-align: center;
+}
+#afiche {
+  padding: 2rem 0;
+}
+#afiche p {
+  font-family: RetroSans;
+  font-size: 1.1rem;
+  color: #FFF0B5;
+  padding: 3rem 2rem 0 3.5rem;
+  rotate: -1deg;
+}
+.caja-de-afiche::after {
+  right: 0rem;
+  top: -1.1rem;
+  rotate: 2deg;
+}
+.caja-de-afiche::before {
+  left: 0rem;
+  top: -1rem;
+  rotate: 2deg;
+}
+#line-up h2, #tickets h2, #contacto h2 {
+  font-size: 3rem;
+  width: 60%;
+}
+#tickets h2::after {
+  height: 75px;
+  width: 75px;
+  right: -2.5rem;
+  top: -1rem;
+}
+#tickets h2::before {
+  height: 75px;
+  width: 75px;
+  left: -2.5rem;
+  top: -1rem;
+}
+#tickets .card {
+  margin: 2rem auto -2rem;
+}
+#tickets .comprar {
+  width: 80%;
+  margin: 2rem auto 0;
+}
+.projects-section {
+  padding: 0;
+}
+#contacto h2::after {
+  height: 75px;
+  width: 75px;
+  right: -4.5rem;
+  top: -1rem;
+}
+#contacto h2::before {
+  height: 75px;
+  width: 75px;
+  left: -4.5rem;
+  top: -1rem;
+}
+#contacto img {
+  padding: 0rem;
+}
+#contacto p {
+  font-size: 1.2rem;
+  padding: 2.5rem 0 0 0;
+  rotate: 0deg;
+}
+.footer {
+    padding: 1rem 0;
+}
+footer img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+}

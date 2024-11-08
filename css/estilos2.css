@@ -1,0 +1,316 @@
+body {
+  background-color: #040707 !important;
+}
+@font-face {
+  font-family: RetroSans;
+  src: url(../fonts/RetroSans.ttf);
+}
+p {
+  font-size: 10px;
+}
+.navbar-brand img {
+  width: 200px;
+}
+nav {
+  background-image: url(../images/menu.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 265px;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+  font-family: RetroSans;
+  color: #FFF0B5;
+  font-size: 1.8rem;
+/*padding: 0.5em 1em;*/
+  padding: 1.5rem 1.5rem 1.25rem;
+  line-height: normal;
+  text-align: center;
+}
+.navbar .navbar-nav .nav-link span {
+  color: #F55D02;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 225px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
+@media (min-width: 992px) {
+    #mainNav .nav-link {
+        transition: none;
+        padding: 1rem .5rem;
+        font-size: 1.5rem;
+    }
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #E85600;
+  border-radius: 7px;
+  padding: 20px;
+}
+.navbar .bigger {
+  font-size: 2.2rem !important;
+}
+@media (max-width: 768px) {
+img {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+}
+#afiche {
+  background-color: #040707 !important;
+  padding: 4rem 0;
+}
+
+#afiche img {
+  float: left;
+  width: 30%;
+  height: auto;
+  padding: .5rem;
+  margin: 3rem 1rem 0 0;
+  rotate: -2deg;
+}
+#afiche p {
+  font-family: RetroSans;
+  font-size: 1.5rem;
+  color: #FFF0B5;
+  padding: 4.5rem 0 0 0;
+  rotate: -2deg;
+}
+.caja-de-afiche::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/der-01.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 400px;
+  width: 175px;
+  right: -3rem;
+  top: -2rem;
+}
+.caja-de-afiche::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/izq-01.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 400px;
+  width: 175px;
+  left: -4rem;
+  top: 0rem;
+}
+
+#line-up {
+  padding-top: 4rem;
+/*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
+  background-color: #040707 !important;
+}
+#line-up img {
+  width: 100%;
+  margin: 4rem auto 1rem;
+  display: block;
+}
+#line-up h2 {
+  font-size: 6rem;
+  font-family: RetroSans;
+  text-align: center;
+  color: #F45D02;
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+#line-up h2::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/fuego-izq.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  left: -2rem;
+  top: -1.5rem;
+}
+#line-up h2::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/fuego-der.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  right: -2rem;
+  top: -1.5rem;
+}
+#tickets {
+  padding-top: 4rem;
+/*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
+  background-color: #040707 !important;
+}
+#tickets img {
+  width: 100%;
+  margin: auto;
+  display: block;
+  padding: 1rem;
+}
+#tickets .card {
+  width: 100%;
+  margin: 4rem auto 1rem;
+  display: block;
+  background-color: #00000000;
+  border: 0px;
+  border-radius: none;
+}
+#tickets h2 {
+  font-size: 6rem;
+  font-family: RetroSans;
+  text-align: center;
+  color: #F45D02;
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+#tickets p {
+  font-size: 10px;
+  color: #FFF0B5;
+  font-size: 1rem;
+  line-height: normal;
+  font-weight: bold;
+  rotate: -2deg;
+  padding: .5rem;
+}
+#tickets h2::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/fuego-izq.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  left: 2rem;
+  top: -1.5rem;
+}
+#tickets h2::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/fuego-der.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  right: 2rem;
+  top: -1.5rem;
+}
+#tickets .comprar {
+  width: 50%;
+  margin: auto;
+  transition: transform 0.2s ease;
+}
+#tickets .comprar:hover {
+  transform: rotate(-1deg);
+}
+#contacto {
+  padding-top: 4rem;
+/*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
+  background-color: #040707 !important;
+}
+#contacto img {
+  width: 100%;
+  margin: auto;
+  display: block;
+  padding: 1rem;
+}
+#contacto h2 {
+  font-size: 6rem;
+  font-family: RetroSans;
+  text-align: center;
+  color: #F45D02;
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+#contacto p {
+  font-family: RetroSans;
+  font-size: 1.5rem;
+  color: #FFF0B5;
+  padding: 4.5rem 0 0 0;
+  line-height: normal;
+  font-weight: bold;
+  rotate: -1deg;
+}
+#contacto a {
+  transition: transform 0.2s ease;
+}
+#contacto a:hover {
+  transform: rotate(-4deg);
+}
+#contacto h2::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/fuego-izq.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  left: 2rem;
+  top: -1.5rem;
+}
+#contacto h2::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/fuego-der.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  right: 2rem;
+  top: -1.5rem;
+}
+.footer {
+  padding: 2rem 0 0;
+}
+#pateavos p, #pateavos a {
+  color: #a33d00;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+.desktop {
+  display: none;
+}
+.mobile {
+  display: block;
+}
+}
