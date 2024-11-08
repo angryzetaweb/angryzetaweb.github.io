@@ -6,6 +6,16 @@ body {
   src: url(../fonts/RetroSans.ttf);
 }
 
+@import url('https:	//fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Pangolin&display=swap');
+
+.pangolin-regular {
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mx-auto {padding-top: 30px;}
+
 .faculty-glyphic-regular {
   font-family: "Faculty Glyphic", sans-serif;
   font-weight: 400;
@@ -49,23 +59,21 @@ nav {
     padding: 0 1em;
   }
 }
-
+a { color: #d93232; }
 h1{
-    font-size: 3em;
+    font-size: 2em;
 	color: white;
 	text-align: center;
-	font-family: RetroSans;
-}
+	font-family: "Permanent Marker", cursive;}
 
 h3{
     font-size: 2em;
 	color: white;
 	text-align: center;
-	font-family: RetroSans;
-}
+font-family: "Permanent Marker", cursive;}
 
 p {
-	font-family: "Faculty Glyphic", sans-serif;
+	  font-family: "Pangolin", cursive;
 	letter-spacing: 0.1em;
 	text-align: center;
 }
@@ -166,7 +174,7 @@ img {
   font-size: 6rem;
   font-family: RetroSans;
   text-align: center;
-  color: #F45D02;
+  color: #d93232;
   position: relative;
   width: 70%;
   margin: auto;
@@ -217,7 +225,7 @@ img {
   font-size: 6rem;
   font-family: RetroSans;
   text-align: center;
-  color: #ff0018;
+  color: #d93232;
   position: relative;
   width: 70%;
   margin: auto;
